@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org/face/cmu-serif"
+      type="text/css"
+    />
+    <title>Feral Partnerships</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+      }
+      h1 {
+        margin: 0;
+      }
+      .title {
+        font-family: "CMUSerifRoman";
+        font-weight: 200;
+        font-size: 6vw;
+        color: rgb(0, 0, 255);
+        /* line-height: 35px; */
+        padding-bottom: 5px;
+        /* position: absolute; */
+        /* left: 40px; */
+        /* top: 40px; */
+      }
+      .subtitle {
+        font-family: "CMUSerifRoman";
+        font-weight: 200;
+        font-size: 3vw;
+        color: rgb(0, 0, 255);
+        /* line-height: 20px; */
+      }
+      .blob {
+        /* width: 25vw;
+         */
+        width: 45%;
+        /* border: 1px solid black; */
+      }
+
+      .pair {
+        width: 100vw;
+        height: 22.5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      .padding-top {
+        padding-top: 2vh;
+      }
+
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 45%;
+        /* height: 300px; */
+      }
+
+      /* DESKTOP */
+      @media only screen and (min-width: 768px) {
+        .pair {
+          width: 50vw;
+          height: 50vh;
+        }
+        .row {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          width: 100vw;
+        }
+        .blob {
+          width: 24vw;
+        }
+        .text-container {
+          /* height: 50vh; */
+          justify-content: center;
+          width: 24vw;
+        }
+        .title {
+          font-size: 4vw;
+          width: 24vw;
+        }
+        .subtitle {
+          font-size: 2vw;
+          width: 24vw;
+        }
+        .padding-top {
+          padding-top: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row padding-top">
+      <div class="pair">
+        <div class="text-container">
+          <h1 class="title unselectable">
+            Feral<br />
+            Parternships
+          </h1>
+          <h1 class="subtitle unselectable">
+            Architectures for human and other-than-human ecologies
+          </h1>
+        </div>
+
+        <img class="blob" src="img/square-02.svg" />
+      </div>
+      <div class="pair padding-top">
+        <img class="blob" src="img/square-08.svg" />
+        <img class="blob" src="img/square-03.svg" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="pair padding-top">
+        <img class="blob" src="img/square-05.svg" />
+        <img class="blob" src="img/square-04.svg" />
+      </div>
+      <div class="pair padding-top">
+        <img class="blob" src="img/square-06.svg" />
+        <img class="blob" src="img/square-07.svg" />
+      </div>
+    </div>
+  </body>
+</html>
